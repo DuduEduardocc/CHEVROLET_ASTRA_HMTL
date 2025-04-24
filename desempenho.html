@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://i.postimg.cc/Kvs0xr1F/816-chevrolet.jpg" type="https://i.postimg.cc/Kvs0xr1F/816-chevrolet.jpg">
+    <title>Desempenho - Chevrolet Astra</title>
+    <style>
+        /* Estilo do menu de navegação */
+.menu-principal {
+    background-color: #003366;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+
+.menu-principal ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-principal a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu-principal a:hover {
+    background-color: #002244;
+}
+        :root {
+            --azul-chevrolet: #003366;
+            --cinza-claro: #f5f5f5;
+            --cinza-escuro: #333333;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--cinza-escuro);
+            background-color: var(--cinza-claro);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: var(--azul-chevrolet);
+            color: white;
+            border-radius: 8px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: var(--azul-chevrolet);
+            border-bottom: 2px solid var(--azul-chevrolet);
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+        
+        .modelo-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .modelo-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .modelo-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .modelo-imagem {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 3px solid var(--azul-chevrolet);
+        }
+        
+        .modelo-info {
+            padding: 20px;
+        }
+        
+        .modelo-nome {
+            font-size: 1.4rem;
+            color: var(--azul-chevrolet);
+            margin-bottom: 10px;
+        }
+        
+        .modelo-detalhes {
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+        }
+        
+        .modelo-status {
+            display: inline-block;
+            padding: 3px 8px;
+            background-color: #e74c3c;
+            color: white;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-top: 5px;
+        }
+        
+        .motorizacao {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        
+        .motor-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #ccc;
+        }
+        
+        .motor-item:last-child {
+            border-bottom: none;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        table th, table td {
+    
+    text-align: center;
+}
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.menu {
+  background-color: #002f6c;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 0;
+  margin: 0; /* remove margem externa */
+  box-sizing: border-box;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #ffcc00; /* cor de destaque ao passar o mouse */
+}
+
+
+    </style>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Desempenho do Chevrolet Astra</h1>
+        <img src="https://i.postimg.cc/TYgCBM77/816-chevrolet.jpg" alt="Logotipo da Uniube" width="200px">
+    </header>
+    <nav class="menu-principal">
+        <ul>
+            <a href="contato.html">Contato</a>
+            <a href="curiosidade.html">Curiosidade</a>
+            <a href="desempenho.html">Desempenho</a>
+            <a href="fotos.html">Fotos</a>
+            <a href="historia.html">História</a>
+            <a href="manutecao.html">Manutenção</a>
+            <a href="modelo.html">Modelo</a>
+            <a href="tabela.html">Tabela</a>
+            <a href="index.html">Inicial</a>
+            <a href="http://127.0.0.1:3000/video.html">Video</a>
+            <a href="http://127.0.0.1:3000/referencia.html">Referências</a>
+            <a href="#topo" style="position: fixed; bottom: 20px; right: 20px; background-color: #003366; color: white; padding: 10px 15px; border-radius: 50%;">↑</a>
+
+            
+        </ul>
+    </nav>
+    <main>
+        <h2>Comparativo de Desempenho por Ano</h2>
+<table style="width:100%; border-collapse: collapse; margin-top: 20px;">
+    <thead style="background-color: #003366; color: white;">
+        <tr>
+            <th style="padding: 10px; border: 1px solid #ccc;">Ano</th>
+            <th style="padding: 10px; border: 1px solid #ccc;">Motorização</th>
+            <th style="padding: 10px; border: 1px solid #ccc;">Potência (cv)</th>
+            <th style="padding: 10px; border: 1px solid #ccc;">0-100 km/h</th>
+            <th style="padding: 10px; border: 1px solid #ccc;">Velocidade Máxima</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="background-color: #f5f5f5;">
+            <td style="padding: 10px; border: 1px solid #ccc;">2008</td>
+            <td style="padding: 10px; border: 1px solid #ccc;">2.0 Flex</td>
+            <td style="padding: 10px; border: 1px solid #ccc;">140</td>
+            <td style="padding: 10px; border: 1px solid #ccc;">9,6s</td>
+            <td style="padding: 10px; border: 1px solid #ccc;">205 km/h</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; border: 1px solid #ccc;">2004</td>
+            <td style="padding: 10px; border: 1px solid #ccc;">2.0 Gasolina</td>
+            <td style="padding: 10px; border: 1px solid #ccc;">128</td>
+            <td style="padding: 10px; border: 1px solid #ccc;">10,5s</td>
+            <td style="padding: 10px; border: 1px solid #ccc;">200 km/h</td>
+        </tr>
+    </tbody>
+</table>
+<h2>Destaques de Desempenho</h2>
+<div class="modelo-container">
+    <div class="modelo-card">
+        <img src="https://i.postimg.cc/KvWMTw5k/Chevrolet-Astra-06.jpg" alt="Motor Astra" class="modelo-imagem">
+        <div class="modelo-info">
+            <h3 class="modelo-nome">Torque e Resposta</h3>
+            <p class="modelo-detalhes">Com torque máximo de 19,2 kgfm, o Astra responde rapidamente nas retomadas e ultrapassagens.</p>
+        </div>
+    </div>
+    <div class="modelo-card">
+        <img src="https://i.postimg.cc/gkBY46rr/suspensao-nakata.jpg" alt="Desempenho" class="modelo-imagem">
+        <div class="modelo-info">
+            <h3 class="modelo-nome">Estabilidade e Direção</h3>
+            <p class="modelo-detalhes">A suspensão bem calibrada garante ótima estabilidade em curvas e conforto na condução urbana.</p>
+        </div>
+    </div>
+</div>
+
+        <h2>Potência e Aceleração</h2>
+        <p>O Chevrolet Astra possui diferentes configurações de motorização, sendo um dos destaques o motor 2.0 Flexpower, que entrega até 140 cv de potência com etanol.</p>
+        <ul>
+            <li>Aceleração de 0 a 100 km/h: aproximadamente 9,6 segundos</li>
+            <li>Velocidade máxima: cerca de 205 km/h</li>
+        </ul>
+        
+        <h2>Consumo de Combustível</h2>
+        <p>O consumo do Chevrolet Astra varia conforme o tipo de combustível utilizado:</p>
+        <ul>
+            <li>Urbano (Gasolina): ~8,5 km/l</li>
+            <li>Rodoviário (Gasolina): ~12 km/l</li>
+            <li>Urbano (Etanol): ~6,5 km/l</li>
+            <li>Rodoviário (Etanol): ~9 km/l</li>
+        </ul>
+    </main>
+    <footer>
+        <p>Carlos Eduardo Gomes Da Silva</p>
+        <p>RA: 5166758</p>
+    </footer>
+</body>
+</html>

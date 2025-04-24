@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://i.postimg.cc/Kvs0xr1F/816-chevrolet.jpg" type="https://i.postimg.cc/Kvs0xr1F/816-chevrolet.jpg">
+    <title>Fotos - Chevrolet Astra</title>
+    <style>
+        /* Estilo do menu de navegação */
+.menu-principal {
+    background-color: #003366;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+
+.menu-principal ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-principal a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu-principal a:hover {
+    background-color: #002244;
+}
+        :root {
+            --azul-chevrolet: #003366;
+            --cinza-claro: #f5f5f5;
+            --cinza-escuro: #333333;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--cinza-escuro);
+            background-color: var(--cinza-claro);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: var(--azul-chevrolet);
+            color: white;
+            border-radius: 8px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: var(--azul-chevrolet);
+            border-bottom: 2px solid var(--azul-chevrolet);
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+        
+        .modelo-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .modelo-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .modelo-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .modelo-imagem {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 3px solid var(--azul-chevrolet);
+        }
+        
+        .modelo-info {
+            padding: 20px;
+        }
+        
+        .modelo-nome {
+            font-size: 1.4rem;
+            color: var(--azul-chevrolet);
+            margin-bottom: 10px;
+        }
+        
+        .modelo-detalhes {
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+        }
+        
+        .modelo-status {
+            display: inline-block;
+            padding: 3px 8px;
+            background-color: #e74c3c;
+            color: white;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-top: 5px;
+        }
+        
+        .motorizacao {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        
+        .motor-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #ccc;
+        }
+        
+        .motor-item:last-child {
+            border-bottom: none;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+.menu {
+  background-color: #002f6c;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 0;
+  margin: 0; /* remove margem externa */
+  box-sizing: border-box;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #ffcc00; /* cor de destaque ao passar o mouse */
+}
+
+
+    </style>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Fotos</h1>
+        <img src="https://i.postimg.cc/TYgCBM77/816-chevrolet.jpg" alt="Astra" width="400px">
+    </header>
+    <nav class="menu-principal">
+        <ul>
+            <a href="contato.html">Contato</a>
+            <a href="curiosidade.html">Curiosidade</a>
+            <a href="desempenho.html">Desempenho</a>
+            <a href="fotos.html">Fotos</a>
+            <a href="historia.html">História</a>
+            <a href="manutecao.html">Manutenção</a>
+            <a href="modelo.html">Modelo</a>
+            <a href="tabela.html">Tabela</a>
+            <a href="index.html">Inicial</a>
+            <a href="http://127.0.0.1:3000/video.html">Video</a>
+            <a href="http://127.0.0.1:3000/referencia.html">Referências</a>
+            <a href="#topo" style="position: fixed; bottom: 20px; right: 20px; background-color: #003366; color: white; padding: 10px 15px; border-radius: 50%;">↑</a>
+
+            
+        </ul>
+    </nav>
+    <main>
+        <h2>Chevrolet Astra SS 2006-2008 preto e vermelho</h2>
+        <div class="galeria">
+            <img src="https://i.postimg.cc/Yq2kXGxx/Astra-SS-Preto-2008-1.jpg" alt="">
+            <img src="https://i.postimg.cc/VvxqNQ4f/chevrolet-astra-ss-70.jpg" alt="">
+            <img src="https://i.postimg.cc/tCGVLdgW/Chevrolet-Astra-Hatch-SS-Preto-2008-1.jpg" alt="">
+            <img src="https://i.postimg.cc/VsqN0xY0/Chevrolet-Astra-Hatch-SS-Preto-2008-2.jpg" alt="">
+            <img src="https://i.postimg.cc/wTnjsgCz/chevrolet-astra-ss-2005-2008-2.jpg" alt="">
+            
+            <img src="https://i.postimg.cc/QNYXR1JS/Chevrolet-Astra-Hatch-2005-2008-Vermelho.jpg" alt="">
+            <img src="https://i.postimg.cc/yNRjzmRR/Chevrolet-Astra-Hatch-2005-2008-Vermelho.jpg" alt="">
+            <img src="https://i.postimg.cc/4NmKj868/chevrolet-astra-ss.jpg" alt="">
+
+        
+        </div>
+    </main>
+    <footer>
+        <p>Carlos Eduardo Gomes Da Silva</p>
+        <p>RA: 5166758</p>
+    </footer>
+</body>
+</html>
